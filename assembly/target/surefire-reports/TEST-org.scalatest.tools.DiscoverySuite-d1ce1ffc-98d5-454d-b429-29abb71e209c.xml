@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="Paal" name="org.scalatest.tools.DiscoverySuite" tests="0" time="0.037" timestamp="2020-03-17T13:15:03">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
+    </property>
+    <property 
+    name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib">
+</property>
+    <property name="java.vm.version" value="25.172-b11"> </property>
+    <property name="gopherProxySet" value="false"> </property>
+    <property name="java.vm.vendor" value="Oracle Corporation"> </property>
+    <property name="java.vendor.url" value="http://java.oracle.com/">
+    </property>
+    <property name="path.separator" value=":"> </property>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM">
+    </property>
+    <property name="file.encoding.pkg" value="sun.io"> </property>
+    <property name="user.country" value="CN"> </property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"> </property>
+    <property name="sun.os.patch.level" value="unknown"> </property>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/Users/lipan/workspace/source_code/spark-2.3.3/assembly">
+</property>
+    <property name="java.runtime.version" value="1.8.0_172-b11"> </property>
+    <property name="spark.ui.enabled" value="false"> </property>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment">
+    </property>
+    <property 
+    name="basedir" value="/Users/lipan/workspace/source_code/spark-2.3.3/assembly">
+</property>
+    <property 
+    name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="x86_64"> </property>
+    <property 
+    name="java.io.tmpdir" value="/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/tmp">
+</property>
+    <property name="derby.system.durability" value="test"> </property>
+    <property name="line.separator" value=" "> </property>
+    <property name="socksProxyPort" value="1081"> </property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="https.proxyHost" value="127.0.0.1"> </property>
+    <property name="os.name" value="Mac OS X"> </property>
+    <property 
+    name="log4j.configuration" value="file:src/test/resources/log4j.properties">
+</property>
+    <property name="sun.jnu.encoding" value="UTF-8"> </property>
+    <property name="spark.ui.showConsoleProgress" value="false"> </property>
+    <property 
+    name="java.library.path" value="/Users/lipan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.">
+</property>
+    <property name="http.proxyPort" value="8001"> </property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"> </property>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="10.15.2"> </property>
+    <property name="user.home" value="/Users/lipan"> </property>
+    <property name="user.timezone" value=""> </property>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob">
+    </property>
+    <property name="java.specification.version" value="1.8"> </property>
+    <property name="file.encoding" value="UTF-8"> </property>
+    <property name="spark.testing" value="1"> </property>
+    <property name="user.name" value="lipan"> </property>
+    <property 
+    name="java.class.path" value="/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/test-classes:/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/classes:/Users/lipan/app/maven_resp/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-core_2.11/2.3.3/spark-core_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/avro/avro/1.7.7/avro-1.7.7.jar:/Users/lipan/app/maven_resp/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/lipan/app/maven_resp/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/lipan/app/maven_resp/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/Users/lipan/app/maven_resp/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar:/Users/lipan/app/maven_resp/org/tukaani/xz/1.0/xz-1.0.jar:/Users/lipan/app/maven_resp/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar:/Users/lipan/app/maven_resp/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar:/Users/lipan/app/maven_resp/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar:/Users/lipan/app/maven_resp/com/twitter/chill_2.11/0.8.4/chill_2.11-0.8.4.jar:/Users/lipan/app/maven_resp/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar:/Users/lipan/app/maven_resp/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/Users/lipan/app/maven_resp/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/lipan/app/maven_resp/com/twitter/chill-java/0.8.4/chill-java-0.8.4.jar:/Users/lipan/app/maven_resp/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5.jar:/Users/lipan/app/maven_resp/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/lipan/app/maven_resp/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/lipan/app/maven_resp/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/lipan/app/maven_resp/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/lipan/app/maven_resp/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/lipan/app/maven_resp/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/lipan/app/maven_resp/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/lipan/app/maven_resp/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/lipan/app/maven_resp/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/lipan/app/maven_resp/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar:/Users/lipan/app/maven_resp/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar:/Users/lipan/app/maven_resp/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar:/Users/lipan/app/maven_resp/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar:/Users/lipan/app/maven_resp/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar:/Users/lipan/app/maven_resp/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5.jar:/Users/lipan/app/maven_resp/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/lipan/app/maven_resp/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/lipan/app/maven_resp/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:/Users/lipan/app/maven_resp/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/Users/lipan/app/maven_resp/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/lipan/app/maven_resp/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar:/Users/lipan/app/maven_resp/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-launcher_2.11/2.3.3/spark-launcher_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-kvstore_2.11/2.3.3/spark-kvstore_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/Users/lipan/app/maven_resp/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar:/Users/lipan/app/maven_resp/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-network-common_2.11/2.3.3/spark-network-common_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-network-shuffle_2.11/2.3.3/spark-network-shuffle_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-unsafe_2.11/2.3.3/spark-unsafe_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/net/java/dev/jets3t/jets3t/0.9.4/jets3t-0.9.4.jar:/Users/lipan/app/maven_resp/org/apache/httpcomponents/httpcore/4.4.8/httpcore-4.4.8.jar:/Users/lipan/app/maven_resp/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.jar:/Users/lipan/app/maven_resp/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/lipan/app/maven_resp/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/lipan/app/maven_resp/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.jar:/Users/lipan/app/maven_resp/com/jamesmurty/utils/java-xmlbuilder/1.1/java-xmlbuilder-1.1.jar:/Users/lipan/app/maven_resp/net/iharder/base64/2.3.8/base64-2.3.8.jar:/Users/lipan/app/maven_resp/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar:/Users/lipan/app/maven_resp/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar:/Users/lipan/app/maven_resp/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/Users/lipan/app/maven_resp/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/lipan/app/maven_resp/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/lipan/app/maven_resp/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar:/Users/lipan/app/maven_resp/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lipan/app/maven_resp/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar:/Users/lipan/app/maven_resp/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar:/Users/lipan/app/maven_resp/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:/Users/lipan/app/maven_resp/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lipan/app/maven_resp/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar:/Users/lipan/app/maven_resp/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar:/Users/lipan/app/maven_resp/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar:/Users/lipan/app/maven_resp/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.jar:/Users/lipan/app/maven_resp/com/github/luben/zstd-jni/1.3.2-2/zstd-jni-1.3.2-2.jar:/Users/lipan/app/maven_resp/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar:/Users/lipan/app/maven_resp/commons-net/commons-net/2.2/commons-net-2.2.jar:/Users/lipan/app/maven_resp/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar:/Users/lipan/app/maven_resp/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11.jar:/Users/lipan/app/maven_resp/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.jar:/Users/lipan/app/maven_resp/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.jar:/Users/lipan/app/maven_resp/org/scala-lang/scalap/2.11.8/scalap-2.11.8.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar:/Users/lipan/app/maven_resp/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar:/Users/lipan/app/maven_resp/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar:/Users/lipan/app/maven_resp/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar:/Users/lipan/app/maven_resp/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar:/Users/lipan/app/maven_resp/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar:/Users/lipan/app/maven_resp/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar:/Users/lipan/app/maven_resp/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar:/Users/lipan/app/maven_resp/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar:/Users/lipan/app/maven_resp/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar:/Users/lipan/app/maven_resp/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5.jar:/Users/lipan/app/maven_resp/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.jar:/Users/lipan/app/maven_resp/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5.jar:/Users/lipan/app/maven_resp/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5.jar:/Users/lipan/app/maven_resp/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar:/Users/lipan/app/maven_resp/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1.jar:/Users/lipan/app/maven_resp/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9.jar:/Users/lipan/app/maven_resp/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar:/Users/lipan/app/maven_resp/oro/oro/2.0.8/oro-2.0.8.jar:/Users/lipan/app/maven_resp/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar:/Users/lipan/app/maven_resp/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-tags_2.11/2.3.3/spark-tags_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-mllib_2.11/2.3.3/spark-mllib_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-mllib-local_2.11/2.3.3/spark-mllib-local_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/scalanlp/breeze_2.11/0.13.2/breeze_2.11-0.13.2.jar:/Users/lipan/app/maven_resp/org/scalanlp/breeze-macros_2.11/0.13.2/breeze-macros_2.11-0.13.2.jar:/Users/lipan/app/maven_resp/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/lipan/app/maven_resp/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar:/Users/lipan/app/maven_resp/org/spire-math/spire_2.11/0.13.0/spire_2.11-0.13.0.jar:/Users/lipan/app/maven_resp/org/spire-math/spire-macros_2.11/0.13.0/spire-macros_2.11-0.13.0.jar:/Users/lipan/app/maven_resp/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar:/Users/lipan/app/maven_resp/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.jar:/Users/lipan/app/maven_resp/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-streaming_2.11/2.3.3/spark-streaming_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-graphx_2.11/2.3.3/spark-graphx_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar:/Users/lipan/app/maven_resp/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-sql_2.11/2.3.3/spark-sql_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/com/univocity/univocity-parsers/2.5.9/univocity-parsers-2.5.9.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-sketch_2.11/2.3.3/spark-sketch_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-catalyst_2.11/2.3.3/spark-catalyst_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/codehaus/janino/janino/3.0.8/janino-3.0.8.jar:/Users/lipan/app/maven_resp/org/codehaus/janino/commons-compiler/3.0.8/commons-compiler-3.0.8.jar:/Users/lipan/app/maven_resp/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar:/Users/lipan/app/maven_resp/org/apache/orc/orc-core/1.4.4/orc-core-1.4.4-nohive.jar:/Users/lipan/app/maven_resp/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/Users/lipan/app/maven_resp/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/lipan/app/maven_resp/io/airlift/aircompressor/0.8/aircompressor-0.8.jar:/Users/lipan/app/maven_resp/org/apache/orc/orc-mapreduce/1.4.4/orc-mapreduce-1.4.4-nohive.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-column/1.8.3/parquet-column-1.8.3.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-common/1.8.3/parquet-common-1.8.3.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-encoding/1.8.3/parquet-encoding-1.8.3.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-hadoop/1.8.3/parquet-hadoop-1.8.3.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-format/2.3.1/parquet-format-2.3.1.jar:/Users/lipan/app/maven_resp/org/apache/parquet/parquet-jackson/1.8.3/parquet-jackson-1.8.3.jar:/Users/lipan/app/maven_resp/org/apache/arrow/arrow-vector/0.8.0/arrow-vector-0.8.0.jar:/Users/lipan/app/maven_resp/org/apache/arrow/arrow-format/0.8.0/arrow-format-0.8.0.jar:/Users/lipan/app/maven_resp/org/apache/arrow/arrow-memory/0.8.0/arrow-memory-0.8.0.jar:/Users/lipan/app/maven_resp/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar:/Users/lipan/app/maven_resp/com/carrotsearch/hppc/0.7.2/hppc-0.7.2.jar:/Users/lipan/app/maven_resp/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055.jar:/Users/lipan/app/maven_resp/org/apache/spark/spark-repl_2.11/2.3.3/spark-repl_2.11-2.3.3.jar:/Users/lipan/app/maven_resp/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar:/Users/lipan/app/maven_resp/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar:/Users/lipan/app/maven_resp/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/Users/lipan/app/maven_resp/org/scalatest/scalatest_2.11/3.0.3/scalatest_2.11-3.0.3.jar:/Users/lipan/app/maven_resp/org/scalactic/scalactic_2.11/3.0.3/scalactic_2.11-3.0.3.jar:/Users/lipan/app/maven_resp/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar:/Users/lipan/app/maven_resp/junit/junit/4.12/junit-4.12.jar:/Users/lipan/app/maven_resp/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lipan/app/maven_resp/com/novocode/junit-interface/0.11/junit-interface-0.11.jar:/Users/lipan/app/maven_resp/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar">
+</property>
+    <property name="socksProxyHost" value="127.0.0.1"> </property>
+    <property name="java.vm.specification.version" value="1.8"> </property>
+    <property name="sun.arch.data.model" value="64"> </property>
+    <property 
+    name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre">
+</property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/classes /Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/test-classes -o -f /Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/surefire-reports/SparkTestSuite.txt -u /Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/surefire-reports/.">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="user.language" value="zh"> </property>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit">
+    </property>
+    <property name="java.vm.info" value="mixed mode"> </property>
+    <property name="java.version" value="1.8.0_172"> </property>
+    <property 
+    name="java.ext.dirs" value="/Users/lipan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java">
+</property>
+    <property name="http.proxyHost" value="127.0.0.1"> </property>
+    <property 
+    name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/classes">
+</property>
+    <property 
+    name="spark.test.home" value="/Users/lipan/workspace/source_code/spark-2.3.3/assembly">
+</property>
+    <property name="java.vendor" value="Oracle Corporation"> </property>
+    <property name="java.awt.headless" value="true"> </property>
+    <property name="file.separator" value="/"> </property>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="spark.unsafe.exceptionOnMemoryLeak" value="true">
+    </property>
+    <property name="sun.cpu.endian" value="little"> </property>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"> </property>
+    <property name="https.proxyPort" value="8001"> </property>
+    <property name="test.src.tables" value="__not_used__"> </property>
+    <property name="sun.cpu.isalist" value=""> </property>
+  </properties>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

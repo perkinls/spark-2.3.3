@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark-streaming-kafka-0-10-assembly" />
+        <module name="spark-network-common" />
+        <module name="spark-repl" />
+        <module name="spark-yarn_2.11" />
+        <module name="spark-mllib-local" />
+        <module name="spark-graphx" />
+        <module name="spark-streaming-kafka-0-10" />
+        <module name="spark-examples" />
+        <module name="spark-launcher" />
+        <module name="spark-kvstore" />
+        <module name="spark-sketch" />
+        <module name="spark-unsafe" />
+        <module name="spark-mllib" />
+        <module name="spark-hive" />
+        <module name="spark-sql" />
+        <module name="spark-network-shuffle" />
+        <module name="spark-streaming" />
+        <module name="spark-tags" />
+        <module name="spark-network-yarn_2.11" />
+        <module name="spark-catalyst" />
+        <module name="spark-core" />
+        <module name="spark-tools" />
+        <module name="spark-sql-kafka-0-10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spark-assembly" target="1.8" />
+      <module name="spark-catalyst" target="1.8" />
+      <module name="spark-core" target="1.8" />
+      <module name="spark-examples" target="1.8" />
+      <module name="spark-graphx" target="1.8" />
+      <module name="spark-hive" target="1.8" />
+      <module name="spark-kvstore" target="1.8" />
+      <module name="spark-launcher" target="1.8" />
+      <module name="spark-mllib" target="1.8" />
+      <module name="spark-mllib-local" target="1.8" />
+      <module name="spark-network-common" target="1.8" />
+      <module name="spark-network-shuffle" target="1.8" />
+      <module name="spark-network-yarn_2.11" target="1.8" />
+      <module name="spark-parent" target="1.8" />
+      <module name="spark-repl" target="1.8" />
+      <module name="spark-sketch" target="1.8" />
+      <module name="spark-sql" target="1.8" />
+      <module name="spark-sql-kafka-0-10" target="1.8" />
+      <module name="spark-streaming" target="1.8" />
+      <module name="spark-streaming-kafka-0-10" target="1.8" />
+      <module name="spark-streaming-kafka-0-10-assembly" target="1.8" />
+      <module name="spark-tags" target="1.8" />
+      <module name="spark-tools" target="1.8" />
+      <module name="spark-unsafe" target="1.8" />
+      <module name="spark-yarn_2.11" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spark-catalyst" options="" />
+      <module name="spark-core" options="" />
+      <module name="spark-examples" options="" />
+      <module name="spark-graphx" options="" />
+      <module name="spark-hive" options="" />
+      <module name="spark-kvstore" options="" />
+      <module name="spark-launcher" options="" />
+      <module name="spark-mllib" options="" />
+      <module name="spark-mllib-local" options="" />
+      <module name="spark-network-common" options="" />
+      <module name="spark-network-shuffle" options="" />
+      <module name="spark-network-yarn_2.11" options="" />
+      <module name="spark-repl" options="" />
+      <module name="spark-sketch" options="" />
+      <module name="spark-sql" options="" />
+      <module name="spark-sql-kafka-0-10" options="" />
+      <module name="spark-streaming" options="" />
+      <module name="spark-streaming-kafka-0-10" options="" />
+      <module name="spark-streaming-kafka-0-10-assembly" options="" />
+      <module name="spark-tags" options="" />
+      <module name="spark-tools" options="" />
+      <module name="spark-unsafe" options="" />
+      <module name="spark-yarn_2.11" options="" />
+    </option>
+  </component>
+</project>

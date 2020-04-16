@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="spark-assembly,spark-catalyst,spark-core,spark-examples,spark-graphx,spark-hive,spark-kvstore,spark-launcher,spark-mllib,spark-mllib-local,spark-network-common,spark-network-shuffle,spark-network-yarn_2.11,spark-parent,spark-repl,spark-sketch,spark-sql,spark-sql-kafka-0-10,spark-streaming,spark-streaming-kafka-0-10,spark-streaming-kafka-0-10-assembly,spark-tags,spark-tools,spark-unsafe,spark-yarn_2.11">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+      </parameters>
+    </profile>
+    <profile name="sbt 1" modules="old-deps,spark-2-3-3_3952" />
+    <profile name="sbt 10" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 11" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 12" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/core/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 13" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/core/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 14" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10-sql/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 15" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/sketch/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 16" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/mllib/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 17" modules="">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/hive/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 18" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/repl/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 19" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/graphx/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/catalyst/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 20" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/tools/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 21" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/network-shuffle/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 22" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/launcher/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 23" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/unsafe/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 24" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/mllib-local/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/streaming/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/kvstore/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10-assembly/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 6" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 7" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/tags/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 8" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/examples/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 9" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10/target/java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

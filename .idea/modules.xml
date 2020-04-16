@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/old-deps.iml" filepath="$PROJECT_DIR$/.idea/modules/old-deps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-assembly.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-catalyst.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-catalyst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-core.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-examples.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-graphx.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-graphx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-hive.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-kvstore.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-kvstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-mllib.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-mllib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-mllib-local.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-mllib-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-common.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/network-yarn/spark-network-yarn_2.11.iml" filepath="$PROJECT_DIR$/common/network-yarn/spark-network-yarn_2.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-repl.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-repl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sketch.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sketch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sql.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sql-kafka-0-10.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sql-kafka-0-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-streaming.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-streaming-kafka-0-10.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-streaming-kafka-0-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-streaming-kafka-0-10-assembly.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-streaming-kafka-0-10-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tags.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tools.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-unsafe.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-unsafe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" filepath="$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" />
+    </modules>
+  </component>
+</project>

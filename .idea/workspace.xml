@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46d1049c-cbb2-4df0-8774-5b3c64fdc8eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark-parent" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/app/maven_resp" />
+        <option name="mavenHome" value="$USER_HOME$/app/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/app/apache-maven-3.5.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="test-java-home" />
+        <option value="scala-2.11" />
+        <option value="hadoop-2.7" />
+        <option value="yarn" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QB0h9gMffQv4sMJZjgV2XbnWp1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JavaSparkPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.JavaSparkPi" />
+      <module name="spark-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.launcher.Main" />
+      <module name="spark-launcher" />
+      <option name="PROGRAM_PARAMETERS" value="org.apache.spark.deploy.SparkSubmit --class com.lp.test.app.LocalPi --master local $USER_HOME$/Desktop/spark-local/spark-local-train-1.0.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.launcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkPi" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.SparkPi" />
+      <module name="spark-examples" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSubmit" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.deploy.SparkSubmit" />
+      <module name="spark-core" />
+      <option name="PROGRAM_PARAMETERS" value="--master local --class com.lp.test.app.LocalPi $USER_HOME$/Desktop/spark-local/original-spark-local-train-1.0.jar 10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.deploy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spark-build-info" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build/spark-build-info" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/build" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.JavaSparkPi" />
+      <item itemvalue="Application.SparkPi" />
+      <item itemvalue="Application.SparkSubmit" />
+      <item itemvalue="Shell Script.spark-build-info" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SparkSubmit" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SparkPi" />
+        <item itemvalue="Shell Script.spark-build-info" />
+        <item itemvalue="Application.JavaSparkPi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="spark-parent" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="catalyst [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/sql/catalyst" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="streaming [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/streaming" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="kvstore [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/kvstore" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="streaming-kafka-0-10-assembly [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/external/kafka-0-10-assembly" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="assembly [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/assembly" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="tags [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/tags" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="examples [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/examples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="streaming-kafka-0-10 [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/external/kafka-0-10" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="oldDeps [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/dev" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spark [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="network-common [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/network-common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sql [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/sql/core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="core [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sql-kafka-0-10 [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/external/kafka-0-10-sql" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sketch [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/sketch" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mllib [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/mllib" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hive [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/sql/hive" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="repl [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/repl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="graphx [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/graphx" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="tools [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/tools" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="network-shuffle [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/network-shuffle" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="launcher [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/launcher" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="unsafe [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/common/unsafe" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mllib-local [file:/Users/lipan/workspace/source_code/spark-2.3.3/]" />
+                <option name="path" value="$PROJECT_DIR$/mllib-local" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spark-parent-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7746413505000" />
+        <entry key="$PROJECT_DIR$/project/MimaBuild.scala" value="2126595415" />
+        <entry key="$PROJECT_DIR$/project/MimaExcludes.scala" value="159784989" />
+        <entry key="$PROJECT_DIR$/project/SparkBuild.scala" value="1497545026" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1085431145" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3632262102" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46d1049c-cbb2-4df0-8774-5b3c64fdc8eb" name="Default Changelist" comment="" />
+      <created>1567228798594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567228798594</updated>
+      <workItem from="1567228799950" duration="1129000" />
+      <workItem from="1567230081512" duration="1054000" />
+      <workItem from="1567238668220" duration="120000" />
+      <workItem from="1584415478635" duration="506000" />
+      <workItem from="1584416009622" duration="4401000" />
+      <workItem from="1586756653274" duration="8986000" />
+      <workItem from="1586784259347" duration="547000" />
+      <workItem from="1586785516175" duration="3253000" />
+      <workItem from="1586839999801" duration="188000" />
+      <workItem from="1586840222180" duration="4436000" />
+      <workItem from="1586923348240" duration="11219000" />
+      <workItem from="1587009868703" duration="3460000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587013644251">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587013644251" />
+    <state x="402" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586772541362">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="402" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586772541362" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1586933489171">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586933489171" />
+    <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1586925163129">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1586925163129" />
+    <state width="1398" height="534" key="GridCell.Tab.0.bottom" timestamp="1586936192565">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586932880499" />
+    <state width="1398" height="534" key="GridCell.Tab.0.bottom/0.23.1391.877@0.23.1391.877" timestamp="1586936192565" />
+    <state width="1398" height="534" key="GridCell.Tab.0.center" timestamp="1586936192564">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586932880496" />
+    <state width="1398" height="534" key="GridCell.Tab.0.center/0.23.1391.877@0.23.1391.877" timestamp="1586936192564" />
+    <state width="1398" height="534" key="GridCell.Tab.0.left" timestamp="1586936192564">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586932880494" />
+    <state width="1398" height="534" key="GridCell.Tab.0.left/0.23.1391.877@0.23.1391.877" timestamp="1586936192564" />
+    <state width="1398" height="534" key="GridCell.Tab.0.right" timestamp="1586936192565">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586932880497" />
+    <state width="1398" height="534" key="GridCell.Tab.0.right/0.23.1391.877@0.23.1391.877" timestamp="1586936192565" />
+    <state width="1398" height="534" key="GridCell.Tab.1.bottom" timestamp="1586936192568">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586932880503" />
+    <state width="1398" height="534" key="GridCell.Tab.1.bottom/0.23.1391.877@0.23.1391.877" timestamp="1586936192568" />
+    <state width="1398" height="534" key="GridCell.Tab.1.center" timestamp="1586936192566">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586932880501" />
+    <state width="1398" height="534" key="GridCell.Tab.1.center/0.23.1391.877@0.23.1391.877" timestamp="1586936192566" />
+    <state width="1398" height="534" key="GridCell.Tab.1.left" timestamp="1586936192566">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586932880500" />
+    <state width="1398" height="534" key="GridCell.Tab.1.left/0.23.1391.877@0.23.1391.877" timestamp="1586936192566" />
+    <state width="1398" height="534" key="GridCell.Tab.1.right" timestamp="1586936192567">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="1398" height="534" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586932880502" />
+    <state width="1398" height="534" key="GridCell.Tab.1.right/0.23.1391.877@0.23.1391.877" timestamp="1586936192567" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1586840123108">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1586840123108" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1586840179868">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586840179868" />
+    <state x="383" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1587009883949">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586840223331" />
+    <state x="383" y="298" key="com.intellij.ide.util.TipDialog/0.23.1391.877@0.23.1391.877" timestamp="1587009883949" />
+    <state x="91" y="174" width="837" height="550" key="find.popup" timestamp="1586840548706">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="91" y="174" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586840548706" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1586839248713">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586839248713" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/launcher/src/main/java/org/apache/spark/launcher/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/launcher/src/main/java/org/apache/spark/launcher/Main.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/SparkSubmit.scala</url>
+          <line>188</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/SparkSubmit.scala</url>
+          <line>291</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/SparkSubmit.scala</url>
+          <line>323</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
