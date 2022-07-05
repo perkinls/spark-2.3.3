@@ -4,7 +4,7 @@
 		module="spark-examples_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132413"
+		publication="20220704205904"
 	>
 		<description>
 		spark-examples
@@ -33,7 +33,7 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile);provided->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.3.3" conf="compile->default(compile)"/>
@@ -41,11 +41,11 @@
 		<dependency org="org.apache.spark" name="spark-graphx_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.11" rev="2.3.3" conf="compile->default(compile)"/>
-		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="provided->default(compile)"/>
-		<dependency org="org.apache.commons" name="commons-math3" rev="3.4.1" conf="provided->default(compile)"/>
+		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.4.1" conf="compile->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.5" conf="test->default(compile)"/>
 		<dependency org="com.github.scopt" name="scopt_2.11" rev="3.7.0" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="parquet-hadoop-bundle" rev="1.6.0" conf="provided->default(compile)"/>
+		<dependency org="com.twitter" name="parquet-hadoop-bundle" rev="1.6.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.3" conf="test->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
 		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="spark-assembly,spark-catalyst,spark-core,spark-examples,spark-graphx,spark-hive,spark-kvstore,spark-launcher,spark-mllib,spark-mllib-local,spark-network-common,spark-network-shuffle,spark-network-yarn_2.11,spark-parent,spark-repl,spark-sketch,spark-sql,spark-sql-kafka-0-10,spark-streaming,spark-streaming-kafka-0-10,spark-streaming-kafka-0-10-assembly,spark-tags,spark-tools,spark-unsafe,spark-yarn_2.11">
+    <profile name="Maven 1" modules="spark-assembly,spark-catalyst,spark-catalyst_2.11,spark-core,spark-core_2.11,spark-examples,spark-examples_2.11,spark-graphx,spark-graphx_2.11,spark-hive,spark-hive_2.11,spark-kvstore,spark-launcher,spark-launcher_2.11,spark-mllib,spark-mllib-local,spark-mllib-local_2.11,spark-mllib_2.11,spark-network-common,spark-network-common_2.11,spark-network-shuffle,spark-network-shuffle_2.11,spark-network-yarn_2.11,spark-parent,spark-repl,spark-repl_2.11,spark-sketch,spark-sketch_2.11,spark-sql,spark-sql-kafka-0-10,spark-sql-kafka-0-10_2.11,spark-sql_2.11,spark-streaming,spark-streaming-kafka-0-10,spark-streaming-kafka-0-10-assembly,spark-streaming-kafka-0-10-assembly_2.11,spark-streaming-kafka-0-10_2.11,spark-streaming_2.11,spark-tags,spark-tags_2.11,spark-tools,spark-tools_2.11,spark-unsafe,spark-unsafe_2.11,spark-yarn_2.11">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -18,7 +18,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/kvstore/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -35,7 +35,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/tools/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -52,7 +52,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/core/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/sql/catalyst/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -69,7 +69,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/core/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -86,7 +86,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10-sql/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/mllib/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -103,7 +103,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/sketch/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/external/kafka-0-10-sql/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -120,7 +120,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/mllib/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/examples/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -131,12 +131,13 @@
       </plugins>
     </profile>
     <profile name="sbt 17" modules="">
+      <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/hive/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/graphx/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -147,13 +148,12 @@
       </plugins>
     </profile>
     <profile name="sbt 18" modules="">
-      <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/repl/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/sql/hive/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -170,7 +170,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/graphx/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/streaming/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -187,7 +187,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/sql/catalyst/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/mllib-local/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -204,7 +204,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/tools/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/sql/core/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -221,7 +221,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/network-shuffle/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/tags/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -238,7 +238,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/launcher/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/network-shuffle/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -255,7 +255,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/unsafe/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/external/kafka-0-10/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -272,7 +272,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/mllib-local/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/core/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -289,7 +289,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/streaming/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -306,7 +306,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/kvstore/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/repl/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -323,7 +323,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10-assembly/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/launcher/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -340,7 +340,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/external/kafka-0-10-assembly/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -357,7 +357,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/common/tags/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/sketch/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -374,7 +374,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/examples/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/common/unsafe/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />
@@ -391,7 +391,7 @@
       <option name="explainTypeErrors" value="true" />
       <parameters>
         <parameter value="-Yno-adapted-args" />
-        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-2.3.3/external/kafka-0-10/target/java" />
+        <parameter value="-P:genjavadoc:out=/Users/lipan/workspace/source_code/spark-source-code/assembly/target/java" />
         <parameter value="-P:genjavadoc:strictVisibility=true" />
         <parameter value="-target:jvm-1.8" />
         <parameter value="-sourcepath" />

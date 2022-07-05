@@ -4,7 +4,7 @@
 		module="spark-streaming_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132255"
+		publication="20220704205546"
 	>
 		<description>
 		spark-streaming
@@ -36,13 +36,13 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
 		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.5" conf="test->default(compile)"/>
 		<dependency org="org.seleniumhq.selenium" name="selenium-java" rev="2.52.0" conf="test->default(compile)">
 			<exclude org="com.google.guava" module="guava" name="*" type="*" ext="*" conf="" matcher="exact"/>

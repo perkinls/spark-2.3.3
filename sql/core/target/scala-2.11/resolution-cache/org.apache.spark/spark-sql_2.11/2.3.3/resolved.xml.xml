@@ -4,7 +4,7 @@
 		module="spark-sql_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132255"
+		publication="20220704205546"
 	>
 		<description>
 		spark-sql
@@ -53,7 +53,7 @@
 		</dependency>
 		<dependency org="org.apache.parquet" name="parquet-column" rev="1.8.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.parquet" name="parquet-hadoop" rev="1.8.3" conf="compile->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.6.7.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.arrow" name="arrow-vector" rev="0.8.0" conf="compile->default(compile)">
 			<exclude org="com.fasterxml.jackson.core" module="jackson-annotations" name="*" type="*" ext="*" conf="" matcher="exact"/>

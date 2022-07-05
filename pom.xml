@@ -223,6 +223,8 @@
       Overridable test home. So that you can call individual pom files directly without
       things breaking.
     -->
+    <session.executionRootDirectory>executionRootDirectory</session.executionRootDirectory>
+    <test_classpath>test_classpath</test_classpath>
     <spark.test.home>${session.executionRootDirectory}</spark.test.home>
 
     <CodeCacheSize>512m</CodeCacheSize>

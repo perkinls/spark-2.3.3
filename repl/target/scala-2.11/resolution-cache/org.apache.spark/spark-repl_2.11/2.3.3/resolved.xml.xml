@@ -4,7 +4,7 @@
 		module="spark-repl_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132255"
+		publication="20220704205559"
 	>
 		<description>
 		spark-repl
@@ -43,10 +43,10 @@
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.5" conf="test->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-core" rev="1.10.19" conf="test->default(compile)"/>
 		<dependency org="org.apache.xbean" name="xbean-asm5-shaded" rev="4.4" conf="compile->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
-		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.3.24.v20180605" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.3.24.v20180605" conf="compile->default(compile)"/>
 		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.3" conf="test->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>

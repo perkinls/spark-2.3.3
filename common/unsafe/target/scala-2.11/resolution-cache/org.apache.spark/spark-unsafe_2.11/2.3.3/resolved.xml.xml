@@ -4,7 +4,7 @@
 		module="spark-unsafe_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132129"
+		publication="20220704205545"
 	>
 		<description>
 		spark-unsafe
@@ -37,8 +37,8 @@
 		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
 		<dependency org="com.twitter" name="chill_2.11" rev="0.8.4" conf="compile->default(compile)"/>
 		<dependency org="com.google.code.findbugs" name="jsr305" rev="1.3.9" conf="compile->default(compile)"/>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="provided->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="compile->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-core" rev="1.10.19" conf="test->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.5" conf="test->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.5" conf="test->default(compile)"/>

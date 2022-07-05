@@ -7,7 +7,7 @@
 		revision="2.3.3"
 		conf="antlr4"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, antlr4"
-		date="20190831132303"/>
+		date="20220704205559"/>
 	<dependencies>
 		<module organisation="org.antlr" name="antlr4">
 			<revision name="4.7" status="release" pubdate="20170331052805" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">

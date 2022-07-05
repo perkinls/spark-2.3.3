@@ -7,7 +7,7 @@
 		revision="2.3.3"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20200317112740"/>
+		date="20220704210155"/>
 	<dependencies>
 		<module organisation="org.apache.commons" name="commons-math3">
 			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
-			<revision name="2.3.3" status="integration" pubdate="20200317112516" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="11">
+			<revision name="2.3.3" status="integration" pubdate="20220704205446" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="11">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-mllib-local$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="2.3.3"/>
 				<artifacts>

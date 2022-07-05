@@ -4,7 +4,7 @@
 		module="spark-hive$sources_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20200317112634"
+		publication="20220704205955"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -92,6 +92,9 @@
 		</dependency>
 		<dependency org="org.glassfish.jersey.containers" name="jersey-container-servlet" rev="2.22.2" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
 			<artifact name="jersey-container-servlet" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="xerces" name="xercesImpl" rev="2.9.1" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="xercesImpl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.sun.jersey.contribs" name="jersey-guice" rev="1.9" transitive="false" conf="test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="jersey-guice" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -284,6 +287,9 @@
 		</dependency>
 		<dependency org="com.sun.jersey" name="jersey-server" rev="1.9" transitive="false" conf="test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="jersey-server" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.15" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;test->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="log4j" name="log4j" rev="1.2.17" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;compile-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
 			<artifact name="log4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -743,9 +749,6 @@
 		</dependency>
 		<dependency org="org.postgresql" name="postgresql" rev="9.4.1207.jre7" transitive="false" conf="test->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
 			<artifact name="postgresql" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="commons-codec" name="commons-codec" rev="1.13" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;test->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile),default">
-			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.seleniumhq.selenium" name="selenium-remote-driver" rev="2.52.0" transitive="false" conf="test->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="selenium-remote-driver" type="src" ext="jar" conf="sources" e:classifier="sources"/>

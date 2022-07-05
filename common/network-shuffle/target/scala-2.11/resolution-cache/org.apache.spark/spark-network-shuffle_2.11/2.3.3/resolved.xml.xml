@@ -4,7 +4,7 @@
 		module="spark-network-shuffle_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132130"
+		publication="20220704205546"
 	>
 		<description>
 		spark-network-shuffle
@@ -37,8 +37,8 @@
 		<dependency org="org.apache.spark" name="spark-network-common_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
 		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.3.3" conf="test->test"/>
 		<dependency org="io.dropwizard.metrics" name="metrics-core" rev="3.1.5" conf="compile->default(compile)"/>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="provided->default(compile)"/>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="compile->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
 		<dependency org="log4j" name="log4j" rev="1.2.17" conf="test->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-core" rev="1.10.19" conf="test->default(compile)"/>
 		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>

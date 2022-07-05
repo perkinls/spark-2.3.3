@@ -4,7 +4,7 @@
 		module="spark-graphx_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132255"
+		publication="20220704205546"
 	>
 		<description>
 		spark-graphx
@@ -38,7 +38,7 @@
 		<dependency org="org.apache.spark" name="spark-mllib-local_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
 		<dependency org="org.apache.xbean" name="xbean-asm5-shaded" rev="4.4" conf="compile->default(compile)"/>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
 		<dependency org="com.github.fommil.netlib" name="core" rev="1.1.2" conf="compile->default(compile)"/>
 		<dependency org="net.sourceforge.f2j" name="arpack_combined_all" rev="0.1" conf="compile->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.5" conf="test->default(compile)"/>

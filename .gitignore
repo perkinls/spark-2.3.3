@@ -72,8 +72,13 @@ spark-tests.log
 src_managed/
 streaming-tests.log
 target/
+*/*/target
+*/target
+target
 unit-tests.log
 work/
+
+
 
 # For Hive
 TempStatsStore/

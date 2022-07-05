@@ -4,7 +4,7 @@
 		module="spark-kvstore$sources_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20200317112518"
+		publication="20220704210250"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -81,7 +81,7 @@
 		<dependency org="com.typesafe.genjavadoc" name="genjavadoc-plugin_2.11.8" rev="0.10" transitive="false" conf="plugin->default,compile,runtime,default(compile),master">
 			<artifact name="genjavadoc-plugin_2.11.8" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;provided->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="junit" name="junit" rev="4.12" transitive="false" conf="test->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);test-internal->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*)">

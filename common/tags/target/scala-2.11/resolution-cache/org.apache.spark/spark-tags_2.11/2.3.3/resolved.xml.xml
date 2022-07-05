@@ -4,7 +4,7 @@
 		module="spark-tags_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132051"
+		publication="20220704205446"
 	>
 		<description>
 		spark-tags

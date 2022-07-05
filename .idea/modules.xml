@@ -15,7 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-mllib-local.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-mllib-local.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-common.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/network-yarn/spark-network-yarn_2.11.iml" filepath="$PROJECT_DIR$/common/network-yarn/spark-network-yarn_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-repl.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-repl.iml" />
@@ -28,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tags.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tags.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tools.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-unsafe.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-unsafe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" filepath="$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" />
     </modules>
   </component>
 </project>

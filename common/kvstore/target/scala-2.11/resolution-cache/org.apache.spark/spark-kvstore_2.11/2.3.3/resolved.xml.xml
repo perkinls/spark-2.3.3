@@ -4,7 +4,7 @@
 		module="spark-kvstore_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132130"
+		publication="20220704205545"
 	>
 		<description>
 		spark-kvstore
@@ -35,7 +35,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.3.3" conf="compile->default(compile);test->test"/>
-		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
 		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.8" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.6.7" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.6.7.1" conf="compile->default(compile)"/>

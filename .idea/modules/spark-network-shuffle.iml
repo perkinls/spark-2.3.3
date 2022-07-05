@@ -9,9 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../common/network-shuffle/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../common/network-shuffle/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="sbt: org.spark-project.spark:unused:1.0.0:jar" level="project" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.6.7.1:jar" level="project" />
@@ -30,16 +29,16 @@
     <orderEntry type="library" name="sbt: org.jpmml:pmml-schema:1.2.15:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.mockito:mockito-core:1.10.19:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.objenesis:objenesis:2.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.8:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.11:1.0.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.11:3.0.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.11:3.0.3:jar" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="sbt: org.slf4j:slf4j-api:1.7.16:jar" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="sbt: org.slf4j:slf4j-api:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.16:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.slf4j:slf4j-log4j12:1.7.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.spark-project.spark:unused:1.0.0:jar" level="project" />
     <orderEntry type="module" module-name="spark-network-common" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.17.Final" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.5" level="project" />

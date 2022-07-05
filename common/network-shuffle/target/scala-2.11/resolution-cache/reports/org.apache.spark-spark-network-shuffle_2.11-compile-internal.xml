@@ -7,10 +7,10 @@
 		revision="2.3.3"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20190831132130"/>
+		date="20220704205546"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
-			<revision name="2.3.3" status="integration" pubdate="20190831132128" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="2.3.3" status="integration" pubdate="20220704205543" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="2.3.3"/>
 				<artifacts>
@@ -98,18 +98,18 @@
 				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/lipan/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
 				<caller organisation="io.dropwizard.metrics" name="metrics-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.5"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.3.3"/>
+				<caller organisation="org.apache.spark" name="spark-network-common_2.11" conf="compile" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.3.3"/>
 				<artifacts>
 					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="40509" time="0" location="/Users/lipan/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="1.7.7" status="release" pubdate="20140404191248" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="-1">
-				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="4481" time="0" location="/Users/lipan/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+			<revision name="1.7.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="-1">
 				<evicted-by rev="1.7.16"/>
 				<caller organisation="io.dropwizard.metrics" name="metrics-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.5"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.3.3"/>
+				<caller organisation="org.apache.spark" name="spark-network-common_2.11" conf="compile" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="2.3.3"/>
 				<artifacts>
 				</artifacts>
 			</revision>

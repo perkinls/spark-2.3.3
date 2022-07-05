@@ -4,7 +4,7 @@
 		module="spark-streaming-kafka-0-10-assembly_2.11"
 		revision="2.3.3"
 		status="integration"
-		publication="20190831132405"
+		publication="20220704205739"
 	>
 		<description>
 		spark-streaming-kafka-0-10-assembly
@@ -33,14 +33,14 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile);provided->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.3.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.3.3" conf="compile->default(compile)"/>
-		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="provided->default(compile)"/>
-		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="provided->default(compile)"/>
-		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="provided->default(compile)"/>
-		<dependency org="org.lz4" name="lz4-java" rev="1.4.0" conf="provided->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.6.5" conf="provided->default(compile)">
+		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.lz4" name="lz4-java" rev="1.4.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.6.5" conf="compile->default(compile)">
 			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.codehaus.jackson" module="jackson-mapper-asl" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
@@ -54,7 +54,7 @@
 			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.apache.avro" name="avro-mapred" rev="1.7.7" conf="provided->default(compile)">
+		<dependency org="org.apache.avro" name="avro-mapred" rev="1.7.7" conf="compile->default(compile)">
 			<artifact name="avro-mapred" type="jar" ext="jar" conf="*" e:classifier="hadoop2"/>
 			<exclude org="io.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.mortbay.jetty" module="jetty" name="*" type="*" ext="*" conf="" matcher="exact"/>
@@ -62,21 +62,21 @@
 			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.apache.velocity" module="velocity" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.apache.curator" name="curator-recipes" rev="2.6.0" conf="provided->default(compile)">
+		<dependency org="org.apache.curator" name="curator-recipes" rev="2.6.0" conf="compile->default(compile)">
 			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="jline" module="jline" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.6" conf="provided->default(compile)">
+		<dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.6" conf="compile->default(compile)">
 			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="jline" module="jline" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="log4j" name="log4j" rev="1.2.17" conf="provided->default(compile)"/>
-		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.4" conf="provided->default(compile)">
+		<dependency org="log4j" name="log4j" rev="1.2.17" conf="compile->default(compile)"/>
+		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.4" conf="compile->default(compile)">
 			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="provided->default(compile)"/>
-		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.16" conf="provided->default(compile)"/>
-		<dependency org="org.xerial.snappy" name="snappy-java" rev="1.1.2.6" conf="provided->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.16" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.16" conf="compile->default(compile)"/>
+		<dependency org="org.xerial.snappy" name="snappy-java" rev="1.1.2.6" conf="compile->default(compile)"/>
 		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.3" conf="test->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>

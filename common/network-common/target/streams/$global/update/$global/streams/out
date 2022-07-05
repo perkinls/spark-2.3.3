@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/lipan/workspace/source_code/spark-2.3.3/}network-common...
+[info] Updating {file:/Users/lipan/workspace/source_code/spark-source-code/}network-common...
 [debug] :: resolving dependencies :: org.apache.spark#spark-network-common_2.11;2.3.3
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -111,16 +111,22 @@
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
-[debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.16 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.16 {compile=[default(compile)]}
+[debug] no default cache defined: set to /Users/lipan/.ivy2/cache
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
+[debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -281,10 +287,17 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -450,10 +463,17 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1025,13 +1045,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-log4j12;1.7.16 [test->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-log4j12;1.7.16 [test->compile]
 [debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
-[info] Resolving org.slf4j#slf4j-api;1.7.16 ...
-[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.16 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
-[debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
 [debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
-[debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [compile->runtime(*)]
-[debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [compile->compile]
 [debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [compile->master(compile)]
 [debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [compile->compile(*)]
 [debug] == resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [compile->runtime(*)]
@@ -1055,12 +1069,6 @@
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.novocode#junit-interface;0.11 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [provided]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->default(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->runtime]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->compile]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->master]
 [debug] resolving dependencies for configuration 'optional'
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
@@ -1198,6 +1206,10 @@
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1278,10 +1290,6 @@
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.jpmml#pmml-model;1.2.15 [compile->master]
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [optional]
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [provided]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->default(compile)]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->runtime]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->compile]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [runtime-internal]
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [runtime]
@@ -1411,10 +1419,17 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [compile->compile(*)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
-[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
+[debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1667,6 +1682,10 @@
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)]
 [debug] == resolving dependencies io.dropwizard.metrics#metrics-core;3.1.5->org.slf4j#slf4j-api;1.7.16 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->io.dropwizard.metrics#metrics-core;3.1.5 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -2310,10 +2329,6 @@
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [optional]
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [provided]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->default(compile)]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->runtime]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->compile]
-[debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->org.slf4j#slf4j-api;1.7.16 [provided->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for org.apache.spark#spark-network-common_2.11;2.3.3 [plugin]
 [debug] == resolving dependencies org.apache.spark#spark-network-common_2.11;2.3.3->com.typesafe.genjavadoc#genjavadoc-plugin_2.11.8;0.10 [plugin->default(compile)]
@@ -2687,13 +2702,13 @@
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.7.1!jackson-databind.jar(bundle)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.6.7!jackson-annotations.jar(bundle)
 [debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.5!metrics-core.jar(bundle)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-crypto;1.0.0!commons-crypto.jar
 [debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar
 [debug] 	[NOT REQUIRED] org.jpmml#pmml-model;1.2.15!pmml-model.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.7!jackson-core.jar(bundle)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.jpmml#pmml-schema;1.2.15!pmml-schema.jar
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)
 [debug] 	[NOT REQUIRED] org.mockito#mockito-core;1.10.19!mockito-core.jar
@@ -2708,24 +2723,23 @@
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.typesafe.genjavadoc#genjavadoc-plugin_2.11.8;0.10!genjavadoc-plugin_2.11.8.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 240ms :: artifacts dl 9ms
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 compile produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-compile.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 runtime produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-runtime.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 test produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-test.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 provided produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-provided.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 optional produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-optional.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 compile-internal produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-compile-internal.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 runtime-internal produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-runtime-internal.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 test-internal produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-test-internal.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 plugin produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-plugin.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 sources produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-sources.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 docs produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-docs.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 pom produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-pom.xml
-[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 scala-tool produced in /Users/lipan/workspace/source_code/spark-2.3.3/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-scala-tool.xml
-[debug] 	resolve done (240ms resolve - 9ms download)
+[debug] :: resolution report :: resolve 315ms :: artifacts dl 24ms
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 compile produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-compile.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 runtime produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-runtime.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 test produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-test.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 provided produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-provided.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 optional produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-optional.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 compile-internal produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-compile-internal.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 runtime-internal produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-runtime-internal.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 test-internal produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-test-internal.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 plugin produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-plugin.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 sources produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-sources.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 docs produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-docs.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 pom produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-pom.xml
+[debug] 	report for org.apache.spark#spark-network-common_2.11;2.3.3 scala-tool produced in /Users/lipan/workspace/source_code/spark-source-code/common/network-common/target/scala-2.11/resolution-cache/reports/org.apache.spark-spark-network-common_2.11-scala-tool.xml
+[debug] 	resolve done (315ms resolve - 24ms download)
 [info] Done updating.
