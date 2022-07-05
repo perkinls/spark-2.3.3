@@ -35,7 +35,7 @@ else
 fi
 
 # Find Spark jars.
-# 这一段，主要是寻找java命令 寻找spark的jar包
+# 这一段 寻找spark的jar包 加载到 CLASSPATH
 # 这里如果我们的jar包数量多，而且内容大，可以事先放到每个机器的对应目录下，这里是一个优化点
 if [ -d "${SPARK_HOME}/jars" ]; then
   SPARK_JARS_DIR="${SPARK_HOME}/jars"
@@ -105,6 +105,11 @@ if [ $LAUNCHER_EXIT_CODE != 0 ]; then
   exit $LAUNCHER_EXIT_CODE
 fi
 CMD=("${CMD[@]:0:$LAST}")
-# /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java -cp /Users/lipan/workspace/source_code/spark-2.3.3/conf/:/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/scala-2.11/jars/* -Xmx1g org.apache.spark.deploy.SparkSubmit --master local --class com.lp.test.app.LocalPi /Users/lipan/Desktop/spark-local/original-spark-local-train-1.0.jar 10
+# /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java
+# -cp /Users/lipan/workspace/source_code/spark-2.3.3/conf/:/Users/lipan/workspace/source_code/spark-2.3.3/assembly/target/scala-2.11/jars/*
+# -Xmx1g org.apache.spark.deploy.SparkSubmit
+# --master local
+# --class com.lp.test.app.LocalPi
+# /Users/lipan/Desktop/spark-local/original-spark-local-train-1.0.jar 10
 exec "${CMD[@]}"
 
